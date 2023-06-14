@@ -14,8 +14,8 @@ datasets:
     interval_list: [1]
     random_reverse: false
     border_mode: false
-    dataroot_GT: /content/drive/MyDrive/miccaichallenge/lol_v1/lol_dataset/our485/high
-    dataroot_LQ: /content/drive/MyDrive/miccaichallenge/lol_v1/lol_dataset/our485/low
+    dataroot_GT: /content/drive/MyDrive/lol_dataset/our485/high
+    dataroot_LQ: /content/drive/MyDrive/lol_dataset/our485/low
     train_size: [600, 400]
     cache_keys: ~
     cache_data: true
@@ -63,7 +63,7 @@ train:
   lr_scheme: MultiStepLR
   beta1: 0.9
   beta2: 0.99
-  niter: 600000
+  niter: 600
   ft_tsa_only: 0
   warmup_iter: -1  # -1: no warm up
   lr_steps: [50000, 100000, 200000, 300000]
