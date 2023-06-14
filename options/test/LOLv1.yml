@@ -12,8 +12,8 @@ datasets:
   test:  # the 1st test dataset
     name: test
     mode: video_samesize_lol
-    dataroot_GT: path_to_datasets/LOLv1/eval15/high
-    dataroot_LQ: path_to_datasets/LOLv1/eval15/low
+    dataroot_GT: /content/drive/MyDrive/lol_dataset/eval15/high
+    dataroot_LQ: /content/drive/MyDrive/lol_dataset/eval15/low
     train_size: [600, 400]
     cache_data: true
     N_frames: 5
