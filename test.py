@@ -97,8 +97,8 @@ def main():
             psnr = util.calculate_psnr(rlt_img, gt_img)
             psnr_rlt[folder].append(psnr)
 
-            ## ssim = util.calculate_ssim(rlt_img, gt_img)
-            ssim = 0
+            ssim = util.calculate_ssim(rlt_img, gt_img)
+            ## ssim = 0
             ssim_rlt[folder].append(ssim)
 
             pbar.update('Test {} - {}'.format(folder, idx_d))
